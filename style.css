@@ -82,6 +82,7 @@ body {
 
 .container>div:nth-of-type(2)>div>h4:hover:nth-of-type(2) {
     background-color: rgb(186, 197, 221);
+    cursor:pointer;
 }
 
 .container>div:nth-of-type(3) {
