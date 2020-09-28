@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container>div:nth-of-type(1) {
+    width: 600px;
+    height: 300px;
+    border-top-right-radius: 25px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 10px 20px -9px #000000;
+}
+
+.container>div:nth-of-type(1)>h1 {
+    background-color: rgb(161, 46, 6);
+    color: white;
+    border-top-right-radius: 25px;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.container>div:nth-of-type(1)>img {
+    width: 600px;
+    height: 300px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.container>div:nth-of-type(2) {
+    width: 600px;
+    margin: 100px auto 30px auto;
+    text-align: center;
+}
+
+.container>div:nth-of-type(2)>div:nth-child(3n+1) {
+    float: left;
+}
+
+.container>div:nth-of-type(2)>div:nth-child(3n+3) {
+    float: right;
+}
+
+.container>div:nth-of-type(2)>div:nth-child(-n+3) {
+    margin-bottom: 30px;
+}
+
+.container>div:nth-of-type(2)>div {
+    width: 160px;
+    border-radius: 25px;
+    height: 420px;
+    box-shadow: 0px 10px 20px -9px #000000;
+    display: inline-block;
+}
+
+.container>div:nth-of-type(2)>div>img {
+    width: 160px;
+    height: 150px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.container>div:nth-of-type(2)>div>p {
+    padding: 0 5px 0 5px;
+}
+
+.container>div:nth-of-type(2)>div:hover {
+    box-shadow: 0px 10px 25px -9px #000000;
+
+}
+
+.container>div:nth-of-type(2)>div>h4:nth-of-type(2) {
+    background-color: orange;
+    border-radius: 5px;
+    width: 100px;
+    margin: auto;
+}
+
+.container>div:nth-of-type(2)>div>h4:hover:nth-of-type(2) {
+    background-color: rgb(186, 197, 221);
+}
+
+.container>div:nth-of-type(3) {
+    width: 600px;
+    height: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 10px 20px -9px #000000;
+}
+
+.container>div:nth-of-type(3)>img {
+    width: 600px;
+    height: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.container>div:nth-of-type(3)>h1 {
+    background-color: rgb(47, 72, 131);
+    color: white;
+    border-bottom-right-radius: 25px;
+    margin-top: -4px;
+    height: 50px;
+    padding-top: 15px;
+}
